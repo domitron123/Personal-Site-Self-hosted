@@ -1,12 +1,54 @@
-@font-face {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.task-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    }
+
+/* .start-icon {
+    float: left;
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+}
+
+.start-bar {
+    float: left;
+} */
+
+.tab-one {
+    float: left;
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+}
+  
+
+
+
+
+
+/* @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
-body {
-    background-color: #FDF5DF;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -56,13 +98,13 @@ a {
     text-align: center;
     /* border: 2px solid rgb(24, 0, 161); */
     /*border-radius: 10px;*/
-    padding: 5px;
-    margin: 5px;
-}
+    /* padding: 5px; */
+    /* margin: 5px;
+} 
 
 .quote h2 {
     font-family: 'Tangerine', cursive;
     font-size: 50px;
     font-weight: 400;
     color: rgb(24, 0, 161);
-}	
+}	  */ 
