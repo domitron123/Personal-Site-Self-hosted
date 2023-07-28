@@ -1,0 +1,120 @@
+body {
+    background-color: #FDF5DF;
+}
+
+h1 {
+    color: BLACK;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: BLACK;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid rgb(24, 0, 161);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(161, 0, 0);
+}
+
+.navigation a.active {
+    color: rgb(161, 0, 0);
+    border-color: rgb(161, 0, 0);
+}
+
+.title {
+    text-align: center;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .heading {
+    margin-bottom: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+    font-size: 2.5rem;
+  }
+   
+  .header {
+    display: flex;
+    align-items: center;
+  }
+   
+  .timer, .errors, .accuracy,
+  .cpm, .wpm {
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border: 1px solid rgb(161, 0, 0);
+    border-radius: 20%;
+  }
+   
+  .cpm, .wpm  {
+    display: none;
+  }
+   
+  .header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+   
+  .curr_time, .curr_errors,
+  .curr_accuracy, .curr_cpm,
+  .curr_wpm {
+    font-size: 2.75rem;
+  }
+   
+  .quote {
+    /* border: 1px solid rgb(161, 0, 0); */
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+ 
+  }
+   
+  .input_area {
+    background-color: #FDF5DF;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    border: 1px solid rgb(161, 0, 0);
+  }
+   
+  .restart_btn {
+    display: none;
+    background-color: #326765;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+   
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+   
+  .correct_char {
+    color: darkgreen;
+  }

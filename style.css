@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+body {
+    background-color: #FDF5DF;
+}
+
+h1 {
+    color: BLACK;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: BLACK;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid rgb(24, 0, 161);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(161, 0, 0);
+}
+
+.selfhost {
+    text-align: center;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.navigation a.active{
+    color: rgb(161, 0, 0);
+    border-color: rgb(161, 0, 0);
+}
+
+.quote {
+    text-align: center;
+    /* border: 2px solid rgb(24, 0, 161); */
+    /*border-radius: 10px;*/
+    padding: 5px;
+    margin: 5px;
+}
+
+.quote h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(24, 0, 161);
+}	
