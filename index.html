@@ -24,11 +24,11 @@
                     <p> Start</p>  
                 </div>
                 <div class="open-icons">
-                    <img src="images/cmd.png" alt="cmd-Icon">
+                    <img class="open" src="images/cmd.png" alt="cmd-Icon">
                     <img src="images/freecell.png" alt="Solatiar-Icon">
                     <img src="images/internet-explorer.png" alt="InternetExplorer-Icon">
                     <img src="images/chart.png" alt="Chart-Icon">
-                    <img src="images/documents.png" alt="OpenDirectory-Icon">
+                    <img src="images/admin-tools.png" alt="AdminFolder-Icon">
                 </div>
             </div>
 
@@ -49,45 +49,50 @@
                 <p>Recycle Bin</p>
             </div>
 
-            <div class="icon">
-                <img src="images/my-computer.png" alt="MyComputer-Icon">
-                <p>My Computer</p>
-            </div>
+            <a href="https://nextcloud.dtownshend.com" target="_blank">
+                <div class="icon">
+                    <img src="images/my-computer.png" alt="MyComputer-Icon">
+                    <p>My Computer</p>
+                </div>
+            </a>
+            
+            <a href="https://notes.dtownshend.com" target="_blank">
+                <div class="icon"> 
+                    <img src="images/documents.png" alt="OpenDirectory-Icon">
+                    <p>Documents</p>
+                </div>
+            </a>
 
-            <div class="icon">
-                <img src="images/admin-tools.png" alt="AdminFolder-Icon">
-                <p>Admin Tools</p>
-            </div>
+            <a href="https://npm.dtownshend.com" target="_blank">
+                <div class="icon">
+                    <img src="images/network_config.png" alt="NetworkConfig-Icon">
+                    <p>Network Config</p>
+                </div>
+            </a>
 
-            <div class="icon">
-                <img src="images/network_config.png" alt="NetworkConfig-Icon">
-                <p>Network Config</p>
-            </div>
-
-            <div class="icon">
-                <img src="images/drive-cleaner.png" alt="DriveClean-Icon">
-                <p>Drive Cleaner</p>
-            </div>
-
+            <a href="https://chat.dtownshend.com" target="_blank">
+                <div class="icon">
+                    <img src="images/Chatroom.png" alt="Chatroom">
+                    <p>Chatroom</p>
+                </div>  
+            </a>
         </div>
     </div>
 
     <div class="terminal">  
+        <div class="terminal-header">
+            <div class="terminal-header-content">
+                <img src="images/cmd.png" alt="Terminal-Icon">
+                <p>Terminal</p>
+                <img class="window-options" src="images/minMiz.png" alt="Terminal-Icon">
+            </div>
+            <!-- <div class="terminal-header-content">
+                <img src="images/terminal-minimize.png" alt="Terminal-Minimize-Icon">
+                <img src="images/terminal-maximize.png" alt="Terminal-Maximize-Icon">
+                <img src="images/terminal-close.png" alt="Terminal-Close-Icon">
+            </div> -->
         <div class="terminal-contents">
             <pre id="terminal-content"></pre>
-            <!-- <p id="coloredText"> -->
-                <!-- <span style="color: #0f0">webserver@PI4-WEBSERVER</span>:<span style="color: #55d4ff">/var/www/personal-site $</span> -->
-                <!-- <span style="color: white"> objects: 7, done. <br>
-                Counting objects: 100% (7/7), done. <br>
-                Delta compression using up to 4 threads <br>
-                Compressing objects: 100% (4/4), done. <br>
-                Writing objects: 100% (4/4), 1014 bytes | 507.00 KiB/s, done. <br>
-                Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 <br>
-                remote: Resolving deltas: 100% (3/3), completed with 3 local objects. <br>
-                To https://github.com/domitron123/Personal-Site-Self-hosted.git <br>
-                25b3ce4..c74cdee  master -> master</span> <br>
-                <span style="color: #0f0">webserver@PI4-WEBSERVER</span>:<span style="color: #55d4ff">/var/www/personal-site $</span> -->
-            <!---->
         </div>
     </div>
     <script src="src/terminal.js"></script>

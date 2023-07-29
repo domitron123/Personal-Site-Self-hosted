@@ -48,8 +48,20 @@ footer {
     padding-left: 10px;
     border-left: 2px solid #DFDFDF;
     border-right: 2px solid #DFDFDF;
+    
 }
   
+.open-icons .open{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left:2px solid #DFDFDF;
+    border-top: 2px solid #DFDFDF;
+    background-color: #f0f0f0;
+}
+
 .open-icons img {
     width: 20px;
     height: 20px;
