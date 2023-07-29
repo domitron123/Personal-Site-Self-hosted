@@ -1,0 +1,61 @@
+/* ... (your existing CSS) ... */
+
+.desktop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; /* Align the container to the top left side */
+}
+
+.desktop-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap between icons as needed */
+  max-width: 600px; /* Adjust the max-width of the icon container as needed */
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon img {
+  width: 50px; /* Adjust the icon size as needed */
+  height: 50px;
+}
+
+.icon p {
+  color: white;
+  margin: 0;
+  margin-top: 10px; /* Adjust the space between icon and text as needed */
+  text-align: center;
+}
+
+
+.terminal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 80%;
+  max-width: 800px;
+  height: 400px; /* Adjust the height as needed */
+  padding: 10px;
+  border-top: 10px solid #9a9a9a;
+  border-left: 3px solid #9a9a9a;
+  border-right: 3px solid #9a9a9a;
+  border-bottom: 3px solid #9a9a9a;
+  color: #0f0;
+  font-family: "Courier New", monospace; /* Use a monospaced font for a CMD-like appearance */
+  font-size: 16px;
+  overflow: hidden; /* Hide text overflow if any */
+}
+
+.terminal-contents p {
+
+  margin-top: 5px; 
+  margin-left: 5px;
+}
