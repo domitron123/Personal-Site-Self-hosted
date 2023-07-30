@@ -9,7 +9,7 @@ terminalContent.innerHTML +=
 (c) dtownshend.com. All rights reserved.</p>`;
 terminalContent.innerHTML += `<span class="${terminalSide.color}">${terminalSide.text}</span><span style="color: #3586ff">:/var/www/personal-site ~  <br> </span>`;
 terminalContent.innerHTML += `<p>
-$ <span class="blink">*</span>
+$ <span class="blink">_</span>
 </p>`;
 
 // Start the typing effect when the page is loaded
