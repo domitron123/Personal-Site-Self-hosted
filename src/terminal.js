@@ -11,6 +11,3 @@ terminalContent.innerHTML += `<span class="${terminalSide.color}">${terminalSide
 terminalContent.innerHTML += `<p>
 $ <span class="blink">_</span>
 </p>`;
-
-// Start the typing effect when the page is loaded
-window.addEventListener('load', typeText);
