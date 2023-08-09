@@ -26,8 +26,6 @@ footer {
   
 .tab-one {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
   
 .tab-one img {
@@ -48,7 +46,6 @@ footer {
     padding-left: 10px;
     border-left: 2px solid #DFDFDF;
     border-right: 2px solid #DFDFDF;
-    
 }
   
 .open-icons .open{
@@ -81,4 +78,34 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-bar {
+        display: none;
+    }
+
+    .open-icons img{
+        margin-right: 25%;
+    }
+
+    .open-icons {
+        width: 150px;
+        border-right: none;
+    }
+
+    .terminal {
+        display: none;
+    }
+
+    .desktop-icons {
+        height: 100%;
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .terminal {
+        display: none;
+    }
 }
