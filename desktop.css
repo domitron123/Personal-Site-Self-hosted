@@ -15,17 +15,20 @@ html, body {
 
 .desktop {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start; /* Align the container to the top left side */
+  height: 100vh;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; Align the container to the top left side */
 }
 
 .desktop-icons {
   display: flex;
   flex-direction: column;
   /* background-color: red; */
-  gap: 30px; /* Adjust the gap between icons as needed */
+  gap: 40px; /* Adjust the gap between icons as needed */
   margin-left: 10px;
   margin-top: 10px;
+  height: 90vh;
+  flex-wrap: wrap;
 } 
 
 .desktop-icons a {
@@ -68,12 +71,7 @@ html, body {
   width: 80%;   
   max-width: 800px;
   height: 350px;
-  border-left: 5px solid #C2C6CA;
-  border-right: 5px solid #C2C6CA;
-  border-bottom: 5px solid #C2C6CA;
-  border-top: 5px solid #C2C6CA;
-
-  color: #0f0;
+  border: 5px solid #C2C6CA;
   font-family: "Courier New", monospace;
   font-size: 16px;
   overflow: hidden;
@@ -181,10 +179,7 @@ input {
   color: #3586ff; /* Blue color for info messages */
 }
 
-.terminal-line {
-  line-height: 0.2; /* Adjust the line-height value to control the spacing between lines */
-  /* Add other styles as needed */
-}
+ 
 
 .blink {
   animation: blink 1s steps(1, end) infinite;
